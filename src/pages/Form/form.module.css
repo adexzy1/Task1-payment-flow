@@ -1,0 +1,41 @@
+.form_container {
+  padding-inline: 2rem;
+  padding-top: 8rem;
+  margin-inline: auto;
+  width: 55%;
+  min-height: 100vh;
+}
+
+.form_container > h3 {
+  font-weight: 700;
+  font-size: 3.6rem;
+  font-family: product-sans;
+  line-height: 5rem;
+  color: var(--secondary-color);
+  padding-bottom: 5.9rem;
+}
+
+.btn_wrapper {
+  padding-block: 8rem 11.1rem;
+}
+
+.btn_wrapper > button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  height: 5.8rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.btn_wrapper > button:first-child {
+  margin-right: 8.4rem;
+  background: linear-gradient(180deg, #f2c94c 0%, #f2994a 100%);
+  border-radius: 10px;
+  color: rgba(247, 247, 255, 1);
+  padding-inline: 9.7rem;
+}
+
+.btn_wrapper > button:last-child {
+  color: var(--secondary-color);
+}

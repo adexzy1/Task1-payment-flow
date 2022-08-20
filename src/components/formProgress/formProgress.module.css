@@ -1,0 +1,35 @@
+.form_progress_container {
+  display: flex;
+  font-size: 2.4rem;
+  color: rgba(189, 189, 189, 1);
+  justify-content: space-between;
+  font-weight: 700;
+  padding-bottom: 2.7rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+  margin-bottom: 5rem;
+}
+
+.form_progress_container h5 {
+  cursor: pointer;
+  position: relative;
+  padding-inline: 0.5rem 3rem;
+}
+
+.form_progress_container h5:nth-child(2) {
+  padding-inline: 2.5rem;
+}
+
+.active {
+  color: var(--accent-color);
+}
+
+.active::before {
+  content: '';
+  background-color: var(--accent-color);
+  position: absolute;
+  height: 1.3rem;
+  left: 0;
+  width: 100%;
+  bottom: -3.3rem;
+  border-radius: 1rem;
+}
